@@ -1,0 +1,8 @@
+{
+    "files.exclude": {
+        ".cache": true,
+        "dist": true,
+        "**/*.js": true,
+        "**/*.js.map": true,
+    }
+}
