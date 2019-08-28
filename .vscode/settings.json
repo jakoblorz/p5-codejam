@@ -10,5 +10,6 @@
         "LICENSE": true,
         "yarn.lock": true,
         "package.json": true,
+        "package-lock.json": true,
     }
 }
