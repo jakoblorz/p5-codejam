@@ -1,8 +1,9 @@
-import * as App from "./src/App";
+import "p5";
+import * as Game from "./src/Game";
 
-for (let key of Object.keys(App)) {
-  console.log(key);
-  if (typeof App[key] == "function") {
-    window[key] = App[key];
+for (let key of Object.keys(Game)) {
+  if (typeof Game[key] == "function") {
+    console.log(`Loading Function ${key}`);
+    window[key] = Game[key];
   }
 }
