@@ -4,5 +4,11 @@
         "dist": true,
         "**/*.js": true,
         "**/*.js.map": true,
+        "**/*.md": true,
+        ".gitignore": true,
+        "node_modules": true,
+        "LICENSE": true,
+        "yarn.lock": true,
+        "package.json": true,
     }
 }
